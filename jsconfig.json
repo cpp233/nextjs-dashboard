@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      // "src/*": ["src/*"],
+      // "#utils/*": ["./src/utils/*"],
+      // "#mediaBackend/*": ["./src/mediaBackend/*"]
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
